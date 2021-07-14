@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<!-- riddle made by IVA(John) -->
+<title>My Pass Encoder</title>
+<style type="text/css">
+body {
+ background-color: #fdefff;
+ text-align: center;
+ margin: 20px 0 20px 0;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ -o-user-select: none;
+ user-select: none;
+}
+.container {
+ display: grid;
+ align-items: center;
+ justify-items: center;
+ align-content: center;
+}
+.para {
+ font-size: 18px;
+ font-family: 'Courier New';
+ margin-bottom: 30px;
+ font-weight: bold;
+}
+.scale100 {transform: scale(100%);}
+.scale80 {transform: scale(80%);}
+.scale60 {transform: scale(60%);}
+</style>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div>
+<button id="scale100">ON Scale Default</button>
+<button id="scale80">ON Scale 80%</button>
+<button id="scale60">ON Scale 60%</button>
+</div>
+<div style="height: 100%;" class="container">
+<h1 style="font-size: 50px; font-family: 'Comic Sans MS', Comic Sans;">My Pass Encoder</h1>
+<p class="para">Try to hack my password :D</p>
+<p class="para">I did this task for you</p>
+<input id="texter" type="password" placeholder="Your pass" style="margin-bottom: 30px; width: 300px; font-size: 30px; border-radius: 10px;">
+<button id="submit" style="font-weight: bold; font-size: 20px; padding: 10px; border-radius: 15px; margin-bottom: 20px;" onclick="getmd5()">Check</button>
+<p id="answer" class="para">(MD5 will be here)</p>
+<p id="verify" class="para">(pass verification will be here)</p>
+<p id="xxx" class="para">xXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXx</p>
+</div>
+
+
+
+<!-- give up -->
+</body>
+</html>
